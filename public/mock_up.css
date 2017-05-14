@@ -1,12 +1,11 @@
 /*@media only screen and (max-width: 768px)*/
+body {
+  font-family: arial, sans-serif;
+}
 
 a {
   text-decoration: none;
   color: gray;
-}
-
-body {
-  font-family: arial, sans-serif;
 }
 
 /*----------------------------------------------------------------*/
@@ -15,11 +14,11 @@ body {
 header {
   display: inline-block;
   padding: 5px;
-  /*background-color: pink;*/
   height: 60px;
   border-bottom-color: #9E9E9E;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+  font-family: arial, sans-serif;
 }
 
 #logo img {
@@ -45,7 +44,6 @@ header {
   width: 25rem;
   height: 20px;
   font-size: small;
-  font-family: arial, sans-serif;
   font-weight: bold;
   border-style: none;
 }
@@ -82,49 +80,60 @@ header {
   color: white;
 }
 
+
+/*----------------------------------------------------------------*/
+/*---------------------MAIN BODY----------------------------------*/
+/*----------------------------------------------------------------*/
+
+/*.flexcontainer {
+  display: -webkit-flex;
+  display: flex;
+  webkit-flex-direction: row;
+  flex-direction: row;
+}*/
+
+
 /*----------------------------------------------------------------*/
 /*---------------------------lEFT---------------------------------*/
 /*----------------------------------------------------------------*/
 
-.left_bar {
+#left_bar {
   top: 1000px;
-  height: 619px;
+  height: 589px;
   width: 205px;
   background-color: #2a2f32;
   font-size: small;
   text-decoration: none;
-  padding-top: 100px;
+  padding-top: 0px;
+  overflow: hidden;
 }
 
-.colors #blue {
-  /*top: 1000px;*/
-  height: 80px;
+#colors {
+  overflow: hidden;
+  background-color: #3cba54;
+  width: 205px;
+  height: 5px;
+}
+
+.blue {
+  padding-left: 51.25px;
   width: 51.25px;
   background-color: #4885ed;
+  overflow: hidden;
 }
 
-.colors #red{
+.red{
   padding-left: 51.25px;
-  /*top: 1000px;*/
-  height: 80px;
   width: 51.25px;
   background-color: #db3236;
+  overflow: hidden;
 }
 
-.colors #gold{
-  padding-left: 102.5px;
-  /*top: 1000px;*/
-  height: 80px;
+.gold{
+  padding-left: 51.25px;
   width: 51.25px;
   background-color: #f4c20d;
-}
-
-.colors #green{
-  padding-left: 153.75px;
-  /*top: 1000px;*/
-  height: 80px;
-  width: 51.25px;
-  background-color: #3cba54;
+  overflow: hidden;
 }
 
 .types {
@@ -135,7 +144,7 @@ header {
   padding-left: 20px;
 }
 
-.left_bar i {
+#left_bar i {
   padding-right: 0.75em;
 }
 
@@ -178,8 +187,8 @@ p {
   padding-left: 2em;
 }
 
-.red {
-  height: 10px;
+#red {
+  height: 5px;
   width:205px;
   padding: -10px;
   background-color: #db3236;
