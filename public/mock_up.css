@@ -1,6 +1,11 @@
 /*@media only screen and (max-width: 768px)*/
+html {
+  margin: 0;
+}
+
 body {
   font-family: arial, sans-serif;
+  margin: 0;
 }
 
 a {
@@ -85,12 +90,10 @@ header {
 /*---------------------MAIN BODY----------------------------------*/
 /*----------------------------------------------------------------*/
 
-/*.flexcontainer {
-  display: -webkit-flex;
+.flexcontainer {
   display: flex;
-  webkit-flex-direction: row;
-  flex-direction: row;
-}*/
+  width: auto;
+}
 
 
 /*----------------------------------------------------------------*/
@@ -106,6 +109,8 @@ header {
   text-decoration: none;
   padding-top: 0px;
   overflow: hidden;
+  display:inline-block;
+  float: left;
 }
 
 #colors {
