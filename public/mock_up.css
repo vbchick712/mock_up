@@ -10,7 +10,7 @@ body {
 
 a {
   text-decoration: none;
-  color: gray;
+  /*color: gray;*/
 }
 
 /*----------------------------------------------------------------*/
@@ -95,7 +95,6 @@ header {
   width: auto;
 }
 
-
 /*----------------------------------------------------------------*/
 /*---------------------------lEFT---------------------------------*/
 /*----------------------------------------------------------------*/
@@ -169,13 +168,17 @@ header {
   color: white;
 }
 
-a #selected {
+#left_bar a {
+  color: gray;
+}
+
+a#selected {
   color: white;
 }
 
 p {
   font-size: small;
-  color: gray;
+  color: #2a2f32;
 }
 
 .search_counter {
@@ -204,11 +207,11 @@ p {
 /*----------------------------------------------------------------*/
 
 .center_results {
-  margin: 0px 420px 0px 220px;
+  margin: 0px 420px;
 }
 
-a .center_results {
-  color: #0000EE; /* This is the blue for the hyperlinks */
+a#result {
+  color: #497aa1; /* This is the blue for the hyperlinks */
 }
 
 .web {
@@ -218,11 +221,16 @@ a .center_results {
   border-bottom-color: #9E9E9E;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+  max-width: 740px;
 }
 
 div .center_results {
   display: inline;
   color: #2a2f32;
+}
+
+.center_results a {
+  color: gray;
 }
 
 
