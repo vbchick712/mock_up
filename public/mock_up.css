@@ -268,7 +268,10 @@ div .center_results {
 }
 
 #mini {
-  padding: 0.1em;
+  padding: .15em;
+  /*border-width: 0.2em;
+  border-style: solid;
+  border-color: #2a2f32;*/
 }
 
 .maps {
